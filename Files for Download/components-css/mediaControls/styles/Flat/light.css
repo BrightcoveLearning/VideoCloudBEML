@@ -1,0 +1,49 @@
+.chrome {
+  background: #DEDEDE;
+}
+.buttons {
+  text: #737373;
+  rolloverText: #B0C645;
+  disabledText: #AAAAAA;
+  icons: #737373;
+  rolloverIcons: #B0C645;
+  disabledIcons: #AAAAAA;
+  border: #C8C8C8;
+}
+.titleText {
+  active: #5E6062;
+  disabled: #A1A1A1;
+  rollover: #6BAAB1;
+  selected: #6BAAB1;
+}
+.bodyText {
+  active: #7D7D7D;
+  disabled: #B0B0B0;
+  rollover: #7D7D7D;
+  selected: #7D7D7D;
+}
+.linkText {
+  active: #7D7D7D;
+  disabled: #B0B0B0;
+  rollover: #6BAAB1;
+  downState: #6BAAB1;
+}
+.playhead {
+  icon: #FFFFFF;
+  face: #8F8F8F;
+}
+.playheadWell {
+  unloaded: #C4C4C4;
+  buffered: #AAAAAB;
+  watched: #B2C846;
+}
+.volumeControl {
+  icons: #E9E9E9;
+  sliderIcon: #FFFFFF;
+  sliderBorder: #737373;
+  slider: #B2C846;
+  trackBorder: #737373;
+  track: #DEDEDE;
+  filledTrack: #B2C846;
+  background: #737373;
+}

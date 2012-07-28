@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Runtime SYSTEM "http://admin.brightcove.com/dtds/beml_rt.dtd">
+<Runtime>
+  <Theme name="Deluxe" style="Light"/>
+  <Layout width="900" height="416">
+    <HBox padding="3">
+      <VBox>
+        <TabBar id="playlistTabs" height="22"/>
+        <List id="videolist" data="{playlistTabs.selectedItem.videoDTOs}" selectOnClick="true">
+          <ListItem boxType="vbox" gutter="3">
+            <TitleLabel text="{currentItem.displayName}"/>
+            <ThumbnailButton source="{currentItem.thumbnailURL}" />
+          </ListItem>
+        </List>
+      </VBox>
+      <VideoPlayer video="{videoList.selectedItem}" id="videoPlayer"/>
+    </HBox>
+  </Layout>
+</Runtime>

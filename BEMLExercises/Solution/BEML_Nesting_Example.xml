@@ -1,0 +1,24 @@
+<!DOCTYPE Runtime SYSTEM "http://admin.brightcove.com/dtds/beml_rt.dtd">
+<Runtime>
+  <Theme name="Deluxe" style="Light">
+    <Style id="default">
+       <![CDATA[.titleText {fontSize: 12;}.bodyText {fontSize: 10;}]]>
+    </Style>
+  </Theme>
+  <Layout id="application" width="480" height="230" boxType="vbox">
+    <TabBar id="playlistTabs" height="15" tabAlign="right" hideSingleTab="true" />
+    <HBox width="480" height="215">
+      <ChromelessVideoPlayer id="videoPlayer" width="300" height="215" video="{videoList.selectedItem}" />
+      <Spacer width="1" />
+        <List id="videoList" rowHeight="52" automaticAdvance="true" 
+	data="{playlistTabs.selectedItem.videoDTOs}" selectOnClick="true" 
+	itemInsetH="2" itemInsetV="2" itemLeading="1">
+          <ListItem boxType="vbox" padding="2">
+            <TitleLabel height="16" text="{currentItem.displayName}" truncate="true" />
+            <Label multiline="true" text="{currentItem.shortDescription}" truncate="true" />
+          </ListItem>
+        </List>
+     </HBox>
+  </Layout>
+</Runtime>
+

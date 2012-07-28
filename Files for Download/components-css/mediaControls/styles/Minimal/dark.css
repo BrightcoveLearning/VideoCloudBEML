@@ -1,0 +1,49 @@
+.buttons {
+  text: #FFFFFF;
+  rolloverText: #96A93B;
+  disabledText: #7E7E7E;
+  icons: #FFFFFF;
+  rolloverIcons: #96A93B;
+  disabledIcons: #7E7E7E;
+  border: #6E6E6D;
+}
+.titleText {
+  active: #E8E8E8;
+  disabled: #9B9B9B;
+  rollover: #B2C846;
+  selected: #B2C846;
+}
+.bodyText {
+  active: #A2A2A2;
+  disabled: #6B6B6B;
+  rollover: #A2A2A2;
+  selected: #A2A2A2;
+}
+.linkText {
+  active: #E8E8E8;
+  disabled: #6B6B6B;
+  rollover: #B2C846;
+  downState: #B2C846;
+}
+.playhead {
+  icon: #FFFFFF;
+  gradientTop: #B2C846;
+  gradientBottom: #B2C846;
+}
+.playheadWell {
+  unloadedGradientTop: #313131;
+  unloadedGradientBottom: #313131;
+  bufferedGradientTop: #7E7E7E;
+  bufferedGradientBottom: #7E7E7E;
+  watchedGradientTop: #B2C846;
+  watchedGradientBottom: #B2C846;
+}
+.volumeControl {
+  icons: #FFFFFF;
+  sliderIcon: #FFFFFF;
+  sliderBorder: #494949;
+  slider: #B2C846;
+  track: #999999;
+  filledTrack: #B2C846;
+  background: #494949;
+}

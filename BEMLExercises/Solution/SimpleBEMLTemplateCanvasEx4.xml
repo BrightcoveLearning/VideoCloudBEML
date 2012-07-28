@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Runtime SYSTEM "http://admin.brightcove.com/dtds/beml_rt.dtd">
+<Runtime>
+  <Theme name="Deluxe" style="Light"/>
+  <Layout width="640" height="468">
+    <Canvas padding="3">
+      <Image x="30" y="50" height="40" width="165" depth="5" source="http://img.brightcove.com/brightcove-logo-sm.png"/>
+      <ChromelessVideoPlayer id="videoPlayer"/>
+      <Label x="400" y="360" height="44" size="40" text="Video rocks"/>
+    </Canvas>
+  </Layout>
+</Runtime>

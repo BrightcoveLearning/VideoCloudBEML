@@ -1,0 +1,32 @@
+.video {
+  background: #000000;
+}
+.playerChrome {
+  background: #DEDEDE;
+}
+.buttons {
+  text: #737373;
+  rolloverText: #B0C645;
+  disabledText: #AAAAAA;
+  icons: #737373;
+  rolloverIcons: #B0C645;
+  disabledIcons: #AAAAAA;
+}
+.menuButton {
+  border: #C8C8C8;
+}
+.time {
+  text: #737373;
+}
+.playhead {
+  icon: #FFFFFF;
+  face: #8F8F8F;
+}
+.playheadWell {
+  unloaded: #C4C4C4;
+  buffered: #AAAAAB;
+  watched: #B2C846;
+}
+.volumeControl {
+  face: #D3FF67;
+}

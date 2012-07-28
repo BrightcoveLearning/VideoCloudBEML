@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Runtime SYSTEM "http://admin.brightcove.com/dtds/beml_rt.dtd">
+<Runtime>
+	<Theme name="Flat" style="Dark">
+	</Theme>
+ 	<Layout width="486" height="416">
+ 	   <VBox padding="3">
+			<VideoPlayer id="videoPlayer" />
+		<Label height="60" text="Video Rocks!" size="40" />
+  	   </VBox>
+	</Layout>
+</Runtime>

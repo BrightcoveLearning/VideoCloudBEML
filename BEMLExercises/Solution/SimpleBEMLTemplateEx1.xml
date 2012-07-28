@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Runtime SYSTEM "http://admin.brightcove.com/dtds/beml_rt.dtd">
+<Runtime>
+  <Theme name="Deluxe" style="Light"/>
+  <Layout width="640" height="468">
+    <VBox padding="3">
+      <ChromelessVideoPlayer id="videoPlayer"/>
+    </VBox>
+  </Layout>
+</Runtime>

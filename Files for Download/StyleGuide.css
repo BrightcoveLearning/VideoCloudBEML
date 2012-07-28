@@ -1,0 +1,419 @@
+/* ComboBox */
+
+.button {
+  icons: #FFFFFF;
+  rolloverIcons: #FFFFFF;
+  gradientTop: #4D4D4D;
+  gradientBottom: #3A3A3A;
+  rolloverGradientTop: #5D5D5D;
+  rolloverGradientBottom: #3A3A3A;
+  borderGradientTop: #747474;
+  borderGradientBottom: #636363;
+  borderRolloverGradientTop: #747474;
+  borderRolloverGradientBottom: #636363;
+  fontFace: "Arial Bold";
+  fontSize: 14;
+}
+.buttonText {
+  active: #FFFFFF;
+  disabled: #999999;
+  rollover: #FFFFFF;
+}
+.item {
+  rolloverGradientTop: #B1C745;
+  rolloverGradientBottom: #8C9E37;
+}
+.itemText {
+  active: #FFFFFF;
+  rollover: #FFFFFF;
+  downState: #FFFFFF;
+}
+.background {
+  face: #676767;
+  border: #7D7D7D;
+}
+.scrollbar {
+  sliderGradientLeft: #343434;
+  sliderGradientRight: #4A4A4A;
+  sliderBorder: #3C3C3C;
+  track: #565656;
+  trackBorder: #7D7D7D;
+  arrows: #FFFFFF;
+}
+
+/* /ComboBox */
+
+/* Label */
+
+.bodyText  {
+  active: #660000;
+  fontFace: "Arial Bold";
+  fontSize: 14;
+}
+
+/* /Label */
+
+/* List */
+
+.background {
+  gradientTop: #272727;
+  gradientMiddle: #272727;
+  gradientBottom: #272727;
+  border: #2C2C2C;
+}
+.listItemBoxes {
+  gradientTop: #303030;
+  gradientMiddle: #424242;
+  gradientBottom: #303030;
+  rolloverGradientTop: #272727;
+  rolloverGradientMiddle: #353535;
+  rolloverGradientBottom: #272727;
+  selectedGradientTop: #272727;
+  selectedGradientMiddle: #353535;
+  selectedGradientBottom: #272727;
+  border: #3C3C3C;
+}
+.titleText {
+  active: #E8E8E8;
+  disabled: #9B9B9B;
+  rollover: #B2C846;
+  selected: #B2C846;
+}
+.bodyText {
+  active: #A2A2A2;
+  disabled: #6B6B6B;
+  rollover: #A2A2A2;
+  selected: #A2A2A2;
+}
+.linkText {
+  active: #E8E8E8;
+  disabled: #6B6B6B;
+  rollover: #B2C846;
+  downState: #B2C846;
+}
+.buttons {
+  gradientTop: #7C7B7B;
+  gradientBottom: #3B3A3A;
+  borderGradientTop: #898989;
+  borderGradientBottom: #585858;
+  rolloverGradientTop: #7C7B7B;
+  rolloverGradientBottom: #3B3A3A;
+  downStateGradientTop: #7C7B7B;
+  downStateGradientBottom: #3B3A3A;
+  downStateBorder: #B0C645;
+  text: #FFFFFF;
+  rolloverText: #96A93B;
+  disabledText: #FFFFFF;
+  icons: #FFFFFF;
+  rolloverIcons: #96A93B;
+  disabledIcons: #7E7E7E;
+}
+.thumbnail {
+  innerBorderGradientTop: #363636;
+  innerBorderGradientBottom: #272727;
+  innerBorderRolloverGradientTop: #888888;
+  innerBorderRolloverGradientBottom: #4B4B4B;
+  innerBorderSelectedGradientTop: #B2C846;
+  innerBorderSelectedGradientBottom: #8C9E37;
+  outerBorderGradientTop: #363636;
+  outerBorderGradientBottom: #272727;
+  outerBorderRolloverGradientTop: #888888;
+  outerBorderRolloverGradientBottom: #4B4B4B;
+  outerBorderSelectedGradientTop: #B2C846;
+  outerBorderSelectedGradientBottom: #8C9E37;
+}
+.scrollbar {
+  trackGradientLeft: #333333;
+  trackGradientRight: #414141;
+  sliderGradientLeft: #545454;
+  sliderGradientRight: #7A7A7A;
+  arrows: #9F9F9F;
+  border: #2C2C2C;
+}
+
+/* /List */
+
+/* MediaControls */
+
+.chrome {
+  gradientTop: #3D3C3C;
+  gradientMiddle: #4A4949;
+  gradientBottom: #282828;
+  border: #2b2b2b;
+}
+.buttons {
+  text: #FFFFFF;
+  rolloverText: #96A93B;
+  disabledText: #7E7E7E;
+  icons: #FFFFFF;
+  rolloverIcons: #96A93B;
+  disabledIcons: #7e7e7e;
+  borderGradientTop: #6A6A6A;
+  borderGradientBottom: #4B4B4B;
+}
+.titleText {
+  active: #E8E8E8;
+  disabled: #9B9B9B;
+  rollover: #B2C846;
+  selected: #B2C846;
+}
+.bodyText {
+  active: #A2A2A2;
+  disabled: #6B6B6B;
+  rollover: #A2A2A2;
+  selected: #A2A2A2;
+}
+.linkText {
+  active: #E8E8E8;
+  disabled: #6B6B6B;
+  rollover: #B2C846;
+  downState: #B2C846;
+}
+.playhead {
+  icon: #FFFFFF;
+  gradientBottom: #8EA038;
+  gradientTop: #B2C846;
+}
+.playheadWell {
+  unloadedGradientTop: #313131;
+  unloadedGradientBottom: #3E3D3D;
+  bufferedGradientTop: #7E7E7E;
+  bufferedGradientBottom: #929292;
+  watchedGradientTop: #B2C846;
+  watchedGradientBottom: #8EA038;
+}
+.volumeControl {
+  icons: #FFFFFF;
+  sliderIcon: #FFFFFF;
+  sliderBorder: #000000;
+  sliderGradientLeft: #97AA3B;
+  sliderGradientRight: #ADC244;
+  trackBorder: #000000;
+  trackGradientLeft: #989898;
+  trackGradientRight: #B4B4B5;
+  filledTrackGradientLeft: #97AA3B;
+  filledTrackGradientRight: #ADC244;
+  borderGradientTop: #747474;
+  borderGradientBottom: #747474;
+  backgroundGradientTop: #3B3B3B;
+  backgroundGradientBottom: #252525;
+}
+
+/* /MediaControls */
+
+/* TabBar */
+.tabs {
+  gradientTop: #5C5C5C;
+  gradientBottom: #3C3C3C;
+  rolloverGradientTop: #434343;
+  rolloverGradientBottom: #272727;
+  selectedGradientTop: #434343;
+  selectedGradientBottom: #272727;
+  borderGradientTop: #464646;
+  borderGradientBottom: #262626;
+  bottomBorderLine: #303030;
+  text: #FFFFFF;
+  rolloverText: #B2C846;
+  selectedText: #B2C846;
+  icons: #DADADA;
+  rolloverIcons: #B2C846;
+  disabledIcons: #7F7F7F;
+  fontFace: "Arial Bold";
+  fontSize: 14;
+}
+.dropDownMenu {
+  backgroundGradientTop: #282828;
+  backgroundGradientBottom: #282828;
+  dividerLines: #3B3B3B;
+  rolloverRowGradientTop: #161616;
+  rolloverRowGradientBottom: #161616;
+  selectedRowGradientTop: #161616;
+  selectedRowGradientBottom: #161616;
+  text: #E9E9E9;
+  rolloverText: #B2C846;
+  selectedText: #B2C846;
+  arrows: #2A2A2A;
+  rolloverArrows: #B2C846;
+  disabledArrows: #272727;
+}
+
+/* /TabBar */
+
+/* TextRegion */
+
+.background {
+  gradientTop: #2E2E2E;
+  gradientBottom: #2E2E2E;
+}
+.border {
+  gradientTop: #595959;
+  gradientBottom: #595959;
+}
+.titleText {
+  active: #E8E8E8;
+  disabled: #9B9B9B;
+  rollover: #B2C846;
+  selected: #B2C846;
+}
+.bodyText {
+  active: #A2A2A2;
+  disabled: #6B6B6B;
+  rollover: #A2A2A2;
+  selected: #A2A2A2;
+}
+.linkText {
+  active: #E8E8E8;
+  disabled: #6B6B6B;
+  rollover: #B2C846;
+  downState: #B2C846;
+}
+
+/* /TextRegion */
+
+/* TileList */
+
+.listItemBoxes {
+  gradientTop: #303030;
+  gradientMiddle: #424242;
+  gradientBottom: #303030;
+  rolloverGradientTop: #272727;
+  rolloverGradientMiddle: #353535;
+  rolloverGradientBottom: #272727;
+  selectedGradientTop: #272727;
+  selectedGradientMiddle: #353535;
+  selectedGradientBottom: #272727;
+  border: #3C3C3C;
+}
+.pagingButtons {
+  gradientTop: #444444;
+  gradientBottom: #1B1B1B;
+  rolloverGradientTop: #555555;
+  rolloverGradientBottom: #2B2B2B;
+  selectedGradientTop: #2B2B2B;
+  selectedGradientBottom: #3B3B3B;
+  disabledGradientTop: #444444;
+  disabledGradientBottom: #444444;
+  borderGradientTop: #5B5B5B;
+  borderGradientBottom: #4B4B4B;
+  rolloverBorderGradientTop: #5B5B5B;
+  rolloverBorderGradientBottom: #4B4B4B;
+  selectedBorderGradientTop: #5B5B5B;
+  selectedBorderGradientBottom: #4B4B4B;
+  disabledBorderGradientTop: #5B5B5B;
+  disabledBorderGradientBottom: #5B5B5B;
+  backgroundGradientTop: #7C7B7B;
+  backgroundGradientBottom: #666666;
+  backgroundBorderGradientTop: #7C7B7B;
+  backgroundBorderGradientBottom: #666666;
+  icons: #DDDDDD;
+  rolloverIcons: #FFFFFF;
+  selectedIcons: #FFFFFF;
+  disabledIcons: #BBBBBB;
+}
+.thumbnail {
+  innerBorderGradientTop: #363636;
+  innerBorderGradientBottom: #272727;
+  innerBorderRolloverGradientTop: #888888;
+  innerBorderRolloverGradientBottom: #7b7b7b;
+  innerBorderSelectedGradientTop: #B2C846;
+  innerBorderSelectedGradientBottom: #8C9E37;
+  outerBorderGradientTop: #363636;
+  outerBorderGradientBottom: #272727;
+  outerBorderRolloverGradientTop: #888888;
+  outerBorderRolloverGradientBottom: #7b7b7b;
+  outerBorderSelectedGradientTop: #B2C846;
+  outerBorderSelectedGradientBottom: #8C9E37;
+}
+.titleText {
+  active: #E8E8E8;
+  disabled: #9B9B9B;
+  rollover: #B2C846;
+  selected: #B2C846;
+}
+.bodyText {
+  active: #A2A2A2;
+  disabled: #6B6B6B;
+  rollover: #A2A2A2;
+  selected: #A2A2A2;
+}
+.linkText {
+  active: #E8E8E8;
+  disabled: #6B6B6B;
+  rollover: #B2C846;
+  downState: #B2C846;
+}
+.buttons {
+  gradientTop: #7C7B7B;
+  gradientBottom: #3B3A3A;
+  borderGradientTop: #898989;
+  borderGradientBottom: #585858;
+  rolloverGradientTop: #7C7B7B;
+  rolloverGradientBottom: #3B3A3A;
+  downStateGradientTop: #7C7B7B;
+  downStateGradientBottom: #3B3A3A;
+  downStateBorder: #B0C645;
+  text: #FFFFFF;
+  rolloverText: #96A93B;
+  disabledText: #FFFFFF;
+  icons: #FFFFFF;
+  rolloverIcons: #96A93B;
+  disabledIcons: #7E7E7E;
+}
+
+/* /TileList */
+
+/* VideoDisplay */
+
+.video {
+  background: #000000;
+}
+.volumeControl {
+  face: #D3FF67;
+}
+
+/* /VideoDisplay */
+
+/* VideoPlayer */
+
+.video {
+  background: #000000;
+}
+.playerChrome {
+  gradientTop: #3D3C3C;
+  gradientMiddle: #4A4949;
+  gradientBottom: #282828;
+  border: #2b2b2b;
+}
+.buttons {
+  text: #FFFFFF;
+  rolloverText: #96A93B;
+  disabledText: #7E7E7E;
+  icons: #FFFFFF;
+  rolloverIcons: #96A93B;
+  disabledIcons: #7e7e7e;
+}
+.menuButton {
+  borderGradientTop: #6A6A6A;
+  borderGradientBottom: #4B4B4B;
+}
+.time {
+  text: #FFFFFF;
+}
+.playhead {
+  icon: #FFFFFF;
+  gradientBottom: #8EA038;
+  gradientTop: #B2C846;
+}
+.playheadWell {
+  unloadedGradientTop: #313131;
+  unloadedGradientBottom: #3E3D3D;
+  bufferedGradientTop: #7E7E7E;
+  bufferedGradientBottom: #929292;
+  watchedGradientTop: #B2C846;
+  watchedGradientBottom: #8EA038;
+}
+.volumeControl {
+  face: #D3FF67;
+}
+
+/* /VideoPlayer */

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Runtime SYSTEM "http://admin.brightcove.com/dtds/beml_rt.dtd">
+<Runtime>
+ <Theme name="Deluxe" style="Light"/>
+ <Layout boxType="hbox" width="955" height="550" padding="3">
+<VBox width="480" height="512">
+     <Image width="480" height="40" scaleMode="exactFit" source="http://www.digitalsurface.org/bc/logo_480_40.gif"/>
+     <VideoPlayer id="videoPlayer" width="480" height="412" video="{playlist.selectedItem}"/>
+     <TitleLabel text="{videoPlayer.video.displayName}" height="40" size="24"/>
+     <Label text="{videoPlayer.video.shortDescription}" height="20" size="11"/>
+   </VBox>
+   <VBox width="438" height="430">
+     <TabBar id="playlistTabs" height="22"/>
+     <TileList id="videolist" columnWidth="120" rowHeight="125" data="{playlistTabs.selectedItem.videoDTOs}" numColumns="3" noInitialSelection="false" numRows="3">
+       <ListItem width="120" padding="3" boxType="vbox">
+         <ThumbnailButton width="114" height="85" source="{currentItem.thumbnailURL}" />
+         <TitleLabel width="114" height="20" text="{currentItem.displayName}" size="11" truncate="true"/>
+       </ListItem>
+     </TileList>
+   </VBox>
+ </Layout>
+</Runtime>
