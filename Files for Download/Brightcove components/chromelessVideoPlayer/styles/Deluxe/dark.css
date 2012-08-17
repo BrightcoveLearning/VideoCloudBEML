@@ -1,0 +1,59 @@
+.video {
+  background: #000000;
+}
+.buttons {
+  icons: #FFFFFF;
+  rolloverIcons: #FFFFFF;
+  selectedIcons: #FFFFFF;
+  gradientTop: #3B3B3B;
+  gradientBottom: #1B1B1B;
+  rolloverGradientTop: #3B3B3B;
+  rolloverGradientBottom: #1B1B1B;
+  selectedGradientTop: #3B3B3B;
+  selectedGradientBottom: #1B1B1B;
+  glow: #FFFFFF;
+  iconGlow: #FFFFFF;
+}
+.playheadWell {
+  background: #FFFFFF;
+  watched: #FFFFFF;
+}
+.playhead {
+  face: #FFFFFF;
+}
+.volumeControl {
+  icons: #FFFFFF;
+  track: #FFFFFF;
+  gradient: #FFFFFF;
+}
+.titleText {
+  active: #FFFFFF;
+  disabled: #999999;
+  rollover: #FFFFFF;
+  selected: #FFFFFF;
+}
+.bodyText {
+  active: #FFFFFF;
+  disabled: #999999;
+  rollover: #FFFFFF;
+  selected: #FFFFFF;
+}
+.linkText {
+  active: #FFFFFF;
+  disabled: #999999;
+  rollover: #FFFFFF;
+  downState: #FFFFFF;
+}
+.liveButton {
+  gradientTop: #3B3B3B;
+  gradientBottom: #1B1B1B;
+  rolloverGradientTop: #3B3B3B;
+  rolloverGradientBottom: #1B1B1B;
+  selectedGradientTop: #3B3B3B;
+  selectedGradientBottom: #1B1B1B;
+  disabledGradientTop: #B1C746;
+  disabledGradientBottom: #8FA138;
+  glow: #FFFFFF;
+  active: #BBBBBB;
+  disabledText: #FFFFFF;
+}

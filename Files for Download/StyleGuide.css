@@ -325,10 +325,10 @@
   outerBorderSelectedGradientBottom: #8C9E37;
 }
 .titleText {
-  active: #E8E8E8;
-  disabled: #9B9B9B;
-  rollover: #B2C846;
-  selected: #B2C846;
+  active: #990000;
+  disabled: #000000;
+  rollover: #000099;
+  selected: #009900;
 }
 .bodyText {
   active: #A2A2A2;

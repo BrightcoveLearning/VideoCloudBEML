@@ -1,0 +1,25 @@
+.button {
+  icons: #EEEEEE;
+  rolloverIcons: #EEEEEE;
+  border: #636363;
+  borderRollover: #747474 ;
+  borderDownState: #636363;
+}
+.buttonText {
+  active: #FFFFFF;
+  disabled: #999999;
+  rollover: #FFFFFF;
+}
+.itemText {
+  active: #FFFFFF;
+  rollover: #ABBE49;
+  downState: #ABBE49;
+}
+.background {
+  face: #494949;
+}
+.scrollbar {
+  face: #303030;
+  border: #2C2C2C;
+  arrows: #828282;
+}

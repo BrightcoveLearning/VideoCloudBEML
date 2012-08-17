@@ -1,0 +1,41 @@
+.video {
+  background: #000000;
+}
+.buttons {
+  text: #FFFFFF;
+  rolloverText: #96A93B;
+  disabledText: #7E7E7E;
+  icons: #FFFFFF;
+  rolloverIcons: #96A93B;
+  disabledIcons: #7E7E7E;
+}
+.menuButton {
+  border: #6E6E6D;
+}
+.time {
+  text: #FFFFFF;
+}
+.playhead {
+  icon: #FFFFFF;
+  gradientTop: #B2C846;
+  gradientBottom: #B2C846;
+}
+.playheadWell {
+  unloadedGradientTop: #313131;
+  unloadedGradientBottom: #313131;
+  bufferedGradientTop: #7E7E7E;
+  bufferedGradientBottom: #7E7E7E;
+  watchedGradientTop: #B2C846;
+  watchedGradientBottom: #B2C846;
+}
+.volumeControl {
+  face: #D3FF67;
+}
+.liveButton {
+  disabledFace: #BFD158;
+  disabledText: #5B5B5B;
+  face: #909090;
+  rollover: #909090;
+  selected: #909090;
+  active: #5B5B5B;
+}

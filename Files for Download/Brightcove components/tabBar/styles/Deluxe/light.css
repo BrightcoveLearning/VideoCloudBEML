@@ -1,0 +1,32 @@
+.tabs {
+  gradientTop: #FBFBFB;
+  gradientBottom: #DCDCDC;
+  rolloverGradientTop: #F7F7F7;
+  rolloverGradientBottom: #FFFFFF;
+  selectedGradientTop: #F7F7F7;
+  selectedGradientBottom: #FFFFFF;
+  borderGradientTop: #DCDCDC;
+  borderGradientBottom: #9F9E9E;
+  bottomBorderLine: #CCCCCC;
+  text: #5E6062;
+  rolloverText: #68A4AB;
+  selectedText: #68A4AB;
+  icons: #6D6D6D;
+  rolloverIcons: #68A4AB;
+  disabledIcons: #BAB9B9;
+}
+.dropDownMenu {
+  backgroundGradientTop: #F3F3F3;
+  backgroundGradientBottom: #EBEBEB;
+  dividerLines: #CECECD;
+  rolloverRowGradientTop: #FFFFFF;
+  rolloverRowGradientBottom: #F6F6F6;
+  selectedRowGradientTop: #FFFFFF;
+  selectedRowGradientBottom: #F6F6F6;
+  text: #5E6062;
+  rolloverText: #68A4AB;
+  selectedText: #68A4AB;
+  arrows: #6D6D6D;
+  rolloverArrows: #68A4AB;
+  disabledArrows: #E5E5E5;
+}

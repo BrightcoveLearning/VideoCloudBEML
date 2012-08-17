@@ -1,0 +1,10 @@
+.buttonText {
+  active: #FFFFFF;
+  disabled: #999999;
+  rollover: #FFFFFF;
+}
+.itemText {
+  active: #FFFFFF;
+  rollover: #FFFFFF;
+  downState: #FFFFFF;
+}

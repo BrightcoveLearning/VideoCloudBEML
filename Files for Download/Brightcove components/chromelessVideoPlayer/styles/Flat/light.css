@@ -1,0 +1,52 @@
+.video {
+  background: #000000;
+}
+.buttons {
+  icons: #FFFFFF;
+  rolloverIcons: #FFFFFF;
+  selectedIcons: #FFFFFF;
+  face: #2B2B2B;
+  rollover: #2B2B2B;
+  selected: #2B2B2B;
+  border: #FFFFFF;
+  rolloverBorder: #FFFFFF;
+  selectedBorder: #FFFFFF;
+}
+.playheadWell {
+  background: #FFFFFF;
+  watched: #FFFFFF;
+}
+.playhead {
+  face: #FFFFFF;
+}
+.volumeControl {
+  icons: #FFFFFF;
+  track: #FFFFFF;
+  face: #FFFFFF;
+}
+.titleText {
+  active: #FFFFFF;
+  disabled: #999999;
+  rollover: #FFFFFF;
+  selected: #FFFFFF;
+}
+.bodyText {
+  active: #FFFFFF;
+  disabled: #999999;
+  rollover: #FFFFFF;
+  selected: #FFFFFF;
+}
+.linkText {
+  active: #FFFFFF;
+  disabled: #999999;
+  rollover: #FFFFFF;
+  downState: #FFFFFF;
+}
+.liveButton {
+  disabledFace: #B2C458;
+  disabledBorder: #000000;
+  face: #2B2B2B;
+  border: #555555;
+  active: #CCCCCC;
+  disabledText: #FFFFFF;
+}

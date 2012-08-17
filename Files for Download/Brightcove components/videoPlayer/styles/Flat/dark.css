@@ -1,0 +1,40 @@
+.video {
+  background: #000000;
+}
+.playerChrome {
+  background: #303030;
+}
+.buttons {
+  text: #FFFFFF;
+  rolloverText: #96A93B;
+  disabledText: #7E7E7E;
+  icons: #FFFFFF;
+  rolloverIcons: #96A93B;
+  disabledIcons: #7E7E7E;
+}
+.menuButton {
+  border: #6E6E6D;
+}
+.time {
+  text: #FFFFFF;
+}
+.playhead {
+  icon: #FFFFFF;
+  face: #B2C846;
+}
+.playheadWell {
+  unloaded: #4A4949;
+  buffered: #7E7E7E;
+  watched: #B2C846;
+}
+.volumeControl {
+  face: #D3FF67;
+}
+.liveButton {
+  disabledFace: #C0D256;
+  disabledBorder: #000000;
+  face: #919191;
+  border: #000000;
+  active: #3F3F3F;
+  disabledText: #3F3F3F;
+}

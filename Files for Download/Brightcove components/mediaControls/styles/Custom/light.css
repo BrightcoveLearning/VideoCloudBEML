@@ -1,0 +1,23 @@
+.buttons {
+  text: #777777;
+  rolloverText: #B0C645;
+  disabledText: #AAAAAA;
+}
+.titleText {
+  active: #5E6062;
+  disabled: #A1A1A1;
+  rollover: #6BAAB1;
+  selected: #6BAAB1;
+}
+.bodyText {
+  active: #7D7D7D;
+  disabled: #B0B0B0;
+  rollover: #7D7D7D;
+  selected: #7D7D7D;
+}
+.linkText {
+  active: #7D7D7D;
+  disabled: #B0B0B0;
+  rollover: #6BAAB1;
+  downState: #6BAAB1;
+}

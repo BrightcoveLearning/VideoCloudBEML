@@ -1,0 +1,28 @@
+.button {
+  icons: #EEEEEE;
+  rolloverIcons: #EEEEEE;
+  face: #303030;
+  rollover: #202020;
+  downState: #303030;
+}
+.buttonText {
+  active: #FFFFFF;
+  disabled: #999999;
+  rollover: #FFFFFF;
+}
+.item {
+  rollover: #A5B944;
+}
+.itemText {
+  active: #FFFFFF;
+  rollover: #FFFFFF;
+  downState: #FFFFFF;
+}
+.background {
+  face: #303030;
+}
+.scrollbar {
+  face: #4A4949;
+  arrows: #FFFFFF;
+  track: #202020;
+}

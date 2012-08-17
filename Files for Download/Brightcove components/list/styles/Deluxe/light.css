@@ -1,0 +1,75 @@
+.background {
+  gradientTop: #FFFFFF;
+  gradientMiddle: #FFFFFF;
+  gradientBottom: #FFFFFF;
+  border: #CCCCCC;
+}
+.listItemBoxes {
+  gradientTop: #F3F3F3;
+  gradientMiddle: #F8F8F8;
+  gradientBottom: #E1E1E1;
+  rolloverGradientTop: #FAFAFA;
+  rolloverGradientMiddle: #FFFFFF;
+  rolloverGradientBottom: #FAFAFA;
+  selectedGradientTop: #FAFAFA;
+  selectedGradientMiddle: #FFFFFF;
+  selectedGradientBottom: #FAFAFA;
+  border: #CCCCCC;
+}
+.titleText {
+  active: #5E6062;
+  disabled: #A1A1A1;
+  rollover: #6BAAB1;
+  selected: #6BAAB1;
+}
+.bodyText {
+  active: #7D7D7D;
+  disabled: #B0B0B0;
+  rollover: #7D7D7D;
+  selected: #7D7D7D;
+}
+.linkText {
+  active: #7D7D7D;
+  disabled: #B0B0B0;
+  rollover: #6BAAB1;
+  downState: #6BAAB1;
+}
+.buttons {
+  gradientTop: #FDFDFD;
+  gradientBottom: #D2D2D2;
+  borderGradientTop: #E0DFDF;
+  borderGradientBottom: #ACABAB;
+  rolloverGradientTop: #FDFDFD;
+  rolloverGradientBottom: #D2D2D2;
+  downStateGradientTop: #FDFDFD;
+  downStateGradientBottom: #D2D2D2;
+  downStateBorder: #B0C645;
+  text: #777777;
+  rolloverText: #B0C645;
+  disabledText: #AAAAAA;
+  icons: #777777;
+  rolloverIcons: #B0C645;
+  disabledIcons: #AAAAAA;
+}
+.thumbnail {
+  innerBorderGradientTop: #E1E1E1;
+  innerBorderGradientBottom: #D2D2D2;
+  innerBorderRolloverGradientTop: #888888;
+  innerBorderRolloverGradientBottom: #4B4B4B;
+  innerBorderSelectedGradientTop: #B2C846;
+  innerBorderSelectedGradientBottom: #8C9E37;
+  outerBorderGradientTop: #E1E1E1;
+  outerBorderGradientBottom: #D2D2D2;
+  outerBorderRolloverGradientTop: #888888;
+  outerBorderRolloverGradientBottom: #4B4B4B;
+  outerBorderSelectedGradientTop: #B2C846;
+  outerBorderSelectedGradientBottom: #8C9E37;
+}
+.scrollbar {
+  trackGradientLeft: #FFFFFF;
+  trackGradientRight: #FFFFFF;
+  sliderGradientLeft: #E9E9E9;
+  sliderGradientRight: #F3F3F3;
+  arrows: #7B7B7B;
+  border: #CCCCCC;
+}

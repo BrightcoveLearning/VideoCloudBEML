@@ -1,0 +1,38 @@
+.button {
+  icons: #3B3B3B;
+  rolloverIcons: #3B3B3B;
+  gradientTop: #FFFFFF;
+  gradientBottom: #EEEEEE;
+  rolloverGradientTop: #FFFFFF;
+  rolloverGradientBottom: #F8F8F8;
+  borderGradientTop: #DDDDDD;
+  borderGradientBottom: #BBBBBB;
+  borderRolloverGradientTop: #DDDDDD;
+  borderRolloverGradientBottom: #BBBBBB;
+}
+.buttonText {
+  active: #3B3B3B;
+  disabled: #999999;
+  rollover: #3B3B3B;
+}
+.item {
+  rolloverGradientTop: #77B3BA;
+  rolloverGradientBottom: #5D8D92;
+}
+.itemText {
+  active: #3B3B3B;
+  rollover: #FFFFFF;
+  downState: #FFFFFF;
+}
+.background {
+  face: #FFFFFF;
+  border: #DDDDDD;
+}
+.scrollbar {
+  sliderGradientLeft: #EAEAEA;
+  sliderGradientRight: #F3F3F3;
+  sliderBorder: #CCCCCC;
+  track: #FFFFFF;
+  trackBorder: #DDDDDD;
+  arrows: #515151;
+}

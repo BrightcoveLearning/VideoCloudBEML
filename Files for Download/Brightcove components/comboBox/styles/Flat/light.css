@@ -1,0 +1,28 @@
+.button {
+  icons: #737373;
+  rolloverIcons: #5B5B5B;
+  face: #DEDEDE;
+  rollover: #EEEEEE;
+  downState: #DEDEDE;
+}
+.buttonText {
+  active: #5B5B5B;
+  disabled: #999999;
+  rollover: #5B5B5B;
+}
+.item {
+  rollover: #81B7BE;
+}
+.itemText {
+  active: #5B5B5B;
+  rollover: #FFFFFF;
+  downState: #FFFFFF;
+}
+.background {
+  face: #DEDEDE;
+}
+.scrollbar {
+  face: #FFFFFF;
+  arrows: #6C6C6C;
+  track: #BBBBBB;
+}

@@ -1,0 +1,18 @@
+.titleText {
+  active: #E8E8E8;
+  disabled: #9B9B9B;
+  rollover: #B2C846;
+  selected: #B2C846;
+}
+.bodyText {
+  active: #A2A2A2;
+  disabled: #6B6B6B;
+  rollover: #A2A2A2;
+  selected: #A2A2A2;
+}
+.linkText {
+  active: #E8E8E8;
+  disabled: #6B6B6B;
+  rollover: #B2C846;
+  downState: #B2C846;
+}
